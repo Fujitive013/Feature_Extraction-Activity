@@ -1,0 +1,7 @@
+# Ignore the Text Extraction folder (has a space in the name)
+# Allow both escaped-space and literal-space variants
+Text\ Extraction/
+Text Extraction/
+
+# Ignore all CSV files (dataset exports, intermediate feature files)
+*.csv
