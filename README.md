@@ -74,9 +74,3 @@ This prevents large datasets and generated outputs (e.g., `bow_features_lemmatiz
 Since Git does not track empty directories, `.gitkeep` files act as placeholders.  
 They ensure that the `lemmatization/` and `stemmer/` directories remain in the repository so the notebook can save its outputs properly.
 
----
-````
-
----
-
-Would you like me to include GitHub-style **badges** (like “Made with Python 🐍”, “Jupyter Notebook”, or “License: MIT”) at the top for a more professional look?
