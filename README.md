@@ -1,4 +1,3 @@
-```markdown
 # Feature_Extraction Activity
 
 This repository contains a Jupyter notebook that performs text normalization and feature extraction on a dataset of reviews.
@@ -6,8 +5,6 @@ This repository contains a Jupyter notebook that performs text normalization and
 ## File Structure
 
 The project is structured within the `Feature Extraction/` directory. The notebook (`.ipynb`) reads the dataset (`.csv`) from its own directory and saves all outputs to the `lemmatization/` and `stemmer/` sub-folders.
-
-```
 
 ├── Feature Extraction/
 │   ├── lemmatization/
@@ -22,7 +19,6 @@ The project is structured within the `Feature Extraction/` directory. The notebo
 ├── .gitignore
 └── README.md
 
-```
 
 ## How to Run
 
@@ -39,4 +35,3 @@ All paths in the notebook are relative, so setup is simple:
 
 * **`.gitignore`**: The `.gitignore` file is configured to **ignore all `*.csv` files** and the `Text Extraction/` folder. This is intentional. It prevents the large dataset and the generated CSV output files (like `bow_features_lemmatized.csv`) from being committed to the repository.
 * **`.gitkeep` Files**: Git does not track empty directories. The `.gitkeep` files are placeholder files inside the `lemmatization/` and `stemmer/` folders. They exist to ensure that Git tracks these directories, so the notebook has a place to save its output.
-```
